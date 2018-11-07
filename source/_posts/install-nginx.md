@@ -1,15 +1,12 @@
 ---
-title: "Centos下安装Nginx"
+title: Centos下安装Nginx
 catalog: true
 toc_nav_num: true
 date: 2018-02-24 21:01:06
-subtitle: "安装教程"
+subtitle: 安装教程
 header-img: "/img/article_header/article_header.png"
 tags:
 - Nginx
-catagories:
-- Nginx
-
 ---
 
 # Centos下安装 Nginx
