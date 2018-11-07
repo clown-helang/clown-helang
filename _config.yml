@@ -23,8 +23,8 @@ permalink_defaults:
 # Site settings
 SEOTitle: 何浪 | 博客
 email: sust_helang@126.com
-description: ""
-keyword: ""
+description: "何浪，WEB前端开发工程师，擅长React、React Native、Vue、HTML、CSS、JavaScript、微信小程序开发"
+keyword: "何浪,WEB前端开发工程师,React,React Native,Vue,HTML,CSS,JavaScript,微信小程序开发,Nginx,Tomcat"
 header-img: /img/header_img/header-banner.jpg
 article-img: /img/article_header/article_bg.jpg
 404-img: /img/header_img/404.png
