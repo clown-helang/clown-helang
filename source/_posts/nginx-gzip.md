@@ -1,5 +1,5 @@
 ---
-title: Nginx启用缓存功能
+title: Nginx启用压缩功能
 catalog: true
 date: 2018-03-03 19:12:34
 subtitle: 配置教程
