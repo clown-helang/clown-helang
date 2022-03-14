@@ -11,7 +11,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.qinrf.cn/       # Note: don't forget to modify the CNAME file to your url
+url: http://www.helang.site # Note: don't forget to modify the CNAME file to your url
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :category/:title/
@@ -23,27 +23,25 @@ permalink_defaults:
 # Site settings
 SEOTitle: 何浪 | 博客
 email: sust_helang@126.com
-description: "何浪，WEB前端开发工程师，擅长React、React Native、Vue、HTML、CSS、JavaScript、微信小程序开发"
-keyword: "何浪,WEB前端开发工程师,React,React Native,Vue,HTML,CSS,JavaScript,微信小程序开发,Nginx,Tomcat,思想是生命的奴隶,生命是时间的弄人"
+description: '何浪，WEB前端开发工程师，擅长React、React Native、Vue、HTML、CSS、JavaScript、微信小程序开发'
+keyword: '何浪,WEB前端开发工程师,React,React Native,Vue,HTML,CSS,JavaScript,微信小程序开发,Nginx,Tomcat,思想是生命的奴隶,生命是时间的弄人'
 header-img: /img/header_img/header-banner.jpg
 article-img: /img/article_header/article_bg.jpg
 404-img: /img/header_img/404.png
 signature: false #show signature
-signature-img: img/signature/BeanTechSign-white.png 
-
+signature-img: img/signature/BeanTechSign-white.png
 
 # SNS settings
 # RSS: false
 # weibo_username:     Demonbaneen
 # zhihu_username:     Demonbane
-github_username:    clown-helang
+github_username: clown-helang
 # twitter_username:   Demonbane_x
 # facebook_username:  YenYuHsuan
 # linkedin_username:  clown-helang
 
 # Build settings
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 
 # Disqus settings
 #disqus_username: your-disqus-ID
@@ -53,25 +51,23 @@ anchorjs: true                          # if you want to customize anchor. check
 # Share component is depend on Comment so we can NOT use share only.
 #duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
-
 # Analytics settings
 #Baidu Analytics
 ba_track_id: r45fhy7653897235wg5ye709d930f62e
 # Google Analytics
-ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-XXXXXXXX-X' # Format: UA-xxxxxx-xx
 ga_domain: yoursite
 
-
 # Sidebar settings
-sidebar: true                       # whether or not using Sidebar.
-sidebar-about-description: "Stay hungry,Stay foolish"
-sidebar-avatar: /img/avatar/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: true # whether or not using Sidebar.
+sidebar-about-description: 'Stay hungry,Stay foolish'
+sidebar-avatar: /img/avatar/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
-- featured-tags
-- short-about
-# - recent-posts
-- friends-blog
-- archive
+  - featured-tags
+  - short-about
+  # - recent-posts
+  - friends-blog
+  - archive
 #- category
 
 # widget behavior
@@ -80,24 +76,20 @@ archives-img: /img/header_img/archives-widget.jpg
 archive_type: 'monthly'
 show_count: true
 
-
 ## Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
 ## Friends
-friends: [
+friends:
+  [
     {
-        title: "何浪-知乎",
-        href: "https://www.zhihu.com/people/helang582/activities"
+      title: '何浪-知乎',
+      href: 'https://www.zhihu.com/people/helang582/activities',
     },
-]
-
+  ]
 
 #Custom Setting End
-
-
 
 # Directory
 source_dir: source
@@ -155,7 +147,7 @@ archive_generator:
   yearly: true
   monthly: true
   daily: false
-  
+
 # Markdown-it config
 ## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
 markdown:
@@ -166,7 +158,7 @@ markdown:
     linkify: true
     typographer: true
     quotes: '“”‘’'
-  
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 
@@ -189,11 +181,12 @@ markdown:
 # reference: https://github.com/metowolf/MetingJS & https://github.com/MoePlayer/APlayer
 metingjs: false
 data-id: 2312165875
-data-server: netease  
+data-server: netease
 data-type: playlist
-data-fixed: true
+data-fixed:
+  true
   # data-mini:
-  # data-autoplay:    
+  # data-autoplay:
 
 ## Themes: https://hexo.io/themes/
 theme: clown-helang
