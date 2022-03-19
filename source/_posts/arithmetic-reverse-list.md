@@ -2,9 +2,9 @@
 title: 反转链表
 catalog: true
 date: 2022-03-13 22:19:09
-subtitle: 算法联系
+subtitle: 算法练习
 header-img: '/img/article_header/article_header.png'
-tags: LeetCode
+tags: Arithmetic
 ---
 
 ## 题目
